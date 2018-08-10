@@ -13,12 +13,10 @@ Replace the default YouTube thumbnail
 </div>
 
 <script>
-document.addEventListener('DOMContentLoaded',()=>{
-	customThumbnail({
-		id:'myMovie',
-		url:'https://www.youtube.com/embed/H46Kil1k-m8',
-		thumbnail:'thumbnail.jpg'
-	});
+customThumbnail({
+	id:'myMovie',
+	url:'https://www.youtube.com/embed/H46Kil1k-m8',
+	thumbnail:'thumbnail.jpg'
 });
 </script>
 ```
