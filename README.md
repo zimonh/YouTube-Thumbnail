@@ -1,7 +1,7 @@
 # YouTube-Thumbnail
 Replace the default YouTube thumbnail
 
-## Step 1: install a user script manager
+## How to use
 - Copy the __script.js__
 - Copy the __style.css__
 - Use this in your page:
