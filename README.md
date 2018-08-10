@@ -8,8 +8,7 @@ Replace the default YouTube thumbnail
 ```
 <div
 	id="myMovie"
-	style="	width: 1100px;		    /* <= width */
-			padding-bottom: 600px;  /* <= height */">
+	style="	width: 1100px; padding-bottom: 600px; /* padding-bottom = height */">
 </div>
 
 <script>
