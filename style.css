@@ -1,0 +1,61 @@
+/* by: ZIMONH src: https://github.com/zimonh/YouTube-Thumbnail
+License: https://creativecommons.org/licenses/by-nc-sa/4.0/ */
+
+.aspect-ratio {
+	height: 0;
+	overflow: hidden;
+	position: relative;}
+
+.aspect-ratio iframe,
+.aspect-ratio img,
+div.coverThumbnail {
+	height: 99.5%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 99.5%;}
+
+.aspect-ratio img{
+	height: 101%;
+	width: 101%;}
+
+.coverThumbnail{
+	opacity: 1;
+-webkit-transition: opacity .5s ease-in-out;
+   -moz-transition: opacity .5s ease-in-out;
+	-ms-transition: opacity .5s ease-in-out;
+	 -o-transition: opacity .5s ease-in-out;
+	transition: opacity .5s ease-in-out;}
+
+.coverThumbnail1{
+	opacity: 0;
+	pointer-events: none;}
+
+.playIcon{
+	fill:red;
+-webkit-transition: all .15s ease-in-out;
+   -moz-transition: all .15s ease-in-out;
+	-ms-transition: all .15s ease-in-out;
+	 -o-transition: all .15s ease-in-out;
+	transition: all .15s ease-in-out;}
+
+.playIconWhite{fill:white;}
+
+.customThumbnailPointer{
+	cursor: pointer;
+	overflow: hidden;}
+
+div.coverThumbnail{
+	pointer-events: none;
+	text-align: center;}
+
+div.coverThumbnail > div{
+	pointer-events: none;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);}
+
+div.coverThumbnail > div > svg{
+	height:auto;
+	pointer-events: none;
+	width: 65px;}
