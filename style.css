@@ -9,11 +9,11 @@ License: https://creativecommons.org/licenses/by-nc-sa/4.0/ */
 .aspect-ratio iframe,
 .aspect-ratio img,
 div.coverThumbnail {
-	height: 99.5%;
+	height: 100%;
 	left: 0;
 	position: absolute;
 	top: 0;
-	width: 99.5%;}
+	width: 100%;}
 
 .aspect-ratio img{
 	height: 101%;
