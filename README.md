@@ -6,10 +6,7 @@ Replace the default YouTube thumbnail
 - Copy the __style.css__
 - Use this in your page:
 ```
-<div
-	id="myMovie"
-	style="	width: 1100px; padding-bottom: 600px; /* padding-bottom = height */">
-</div>
+<div id="myMovie" style=" width: 1100px; padding-bottom: 600px; /* padding-bottom = height */"></div>
 
 <script>
 customThumbnail({
