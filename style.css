@@ -6,7 +6,7 @@ License: https://creativecommons.org/licenses/by-nc-sa/4.0/ */
 	position: relative;}
 
 .aspect-ratio iframe,
-.aspect-ratio img,
+.yt-img-container,
 div.coverThumbnail {
 	height: 100%;
 	left: 0;
@@ -15,11 +15,13 @@ div.coverThumbnail {
 	width: 100%;}
 
 
-.aspect-ratio img{
-	height: 101%;
-	width: 101%;}
+.yt-img-container{
+	background-position: center;
+	background-size:cover;
+	height: 100%;
+	width: 100%;}
 
-.coverThumbnail{
+.coverThumbnail, .yt-img-container{
 	opacity: 1;
 -webkit-transition: opacity .5s ease-in-out;
    -moz-transition: opacity .5s ease-in-out;
@@ -44,7 +46,6 @@ div.coverThumbnail {
 .customThumbnailPointer{
 	cursor: pointer;
 	overflow: hidden;}
-
 div.coverThumbnail{
 	pointer-events: none;
 	text-align: center;}
@@ -58,4 +59,4 @@ div.coverThumbnail > div{
 div.coverThumbnail > div > svg{
 	height:auto;
 	pointer-events: none;
-	width: 65px;}
+width: 65px;}
